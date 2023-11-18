@@ -14,6 +14,7 @@
 		4E80CD172B090B8900714A5E /* SeeFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4E80CD152B090B8900714A5E /* SeeFood.xcdatamodeld */; };
 		4E80CD192B090B8D00714A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E80CD182B090B8D00714A5E /* Assets.xcassets */; };
 		4E80CD1C2B090B8D00714A5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E80CD1A2B090B8D00714A5E /* LaunchScreen.storyboard */; };
+		4E80CD242B090E0300714A5E /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4E80CD232B090E0300714A5E /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4E80CD182B090B8D00714A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E80CD1B2B090B8D00714A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E80CD1D2B090B8D00714A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E80CD232B090E0300714A5E /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				4E80CD1A2B090B8D00714A5E /* LaunchScreen.storyboard */,
 				4E80CD1D2B090B8D00714A5E /* Info.plist */,
 				4E80CD152B090B8900714A5E /* SeeFood.xcdatamodeld */,
+				4E80CD232B090E0300714A5E /* Inceptionv3.mlmodel */,
 			);
 			path = SeeFood;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E80CD242B090E0300714A5E /* Inceptionv3.mlmodel in Sources */,
 				4E80CD112B090B8900714A5E /* ViewController.swift in Sources */,
 				4E80CD172B090B8900714A5E /* SeeFood.xcdatamodeld in Sources */,
 				4E80CD0D2B090B8900714A5E /* AppDelegate.swift in Sources */,
